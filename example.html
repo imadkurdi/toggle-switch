@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>toggle-switch example</title>
+
+   <style>
+      main {
+         block-size: 3rem;
+         background-color: lightgrey;
+         background-color: antiquewhite;
+         font-size: 120%;
+         display: flex;
+         align-items: center;
+      }
+
+      toggle-switch {
+         --block-size: 30px;
+         --bg-off-color: lightgrey;
+         --bg-on-color: lightgreen;
+         --slider-off-color: #555;
+         --slider-on-color: green;
+
+         margin-inline: 1rem;
+      }
+   </style>
+   <script type="module" src="toggle-switch.js"></script>
+</head>
+
+<body>
+   <main>
+      <toggle-switch></toggle-switch>
+      <span></span>
+   </main>
+
+   <script>
+      const stateOutput = document.querySelector("span");
+      const toggleSwitch = document.querySelector("toggle-switch");
+
+      toggleSwitch.addEventListener("toggle-switch-changed", evt => {
+         stateOutput.textContent = evt.detail ? "ON state" : "OFF state";
+      });
+   </script>
+</body>
+
+</html>
