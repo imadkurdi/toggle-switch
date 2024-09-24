@@ -1,0 +1,33 @@
+{
+  "name": "@imadkurdi/toggle-switch",
+  "version": "1.0.0",
+  "description": "This is a toggle-switch component: a switch having ON & OFF states. It is a standard custom web component written in pure vanilla JS, so it could be used in any framework.",
+  "main": "toggle-switch.js",
+  "keywords": [
+    "toggle-switch",
+    "toggle switch",
+    "switch",
+    "toggle",
+    "toggler",
+    "radio",
+    "button",
+    "checkbox",
+    "input",
+    "ui",
+    "browser",
+    "component",
+    "web component",
+    "custom element",
+    "vanilla js"
+  ],
+  "author": "Imad Kurdi",
+  "license": "MIT",
+  "homepage": "https://github.com/imadkurdi/toggle-switch#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imadkurdi/toggle-switch.git"
+  },
+  "bugs": {
+    "url": "https://github.com/imadkurdi/toggle-switch/issues"
+  }
+}
